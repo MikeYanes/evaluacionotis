@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+}
+
+.contenedor{
+	width: 100%;
+	height:100%;
+	background:#9F281C;
+}
+
+#Banner1{
+	height: 50px;
+	background: #003E91;
+}
+
+#Banner2{
+	
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+
+	
+}
+#logo{
+	margin-left: 20%;
+	max-width: 60%;
+}
+#enc{
+	background: #ffffff;
+	display: flex;
+
+	text-align: center;
+	flex-direction:column;
+
+}
+
+#inscrip2{
+	font-size:28px;
+	font-family:helvetica;
+	color:#9F281C;
+}
+
+nav{
+	padding:57px 27px 57px 27px; 
+	display: flex;
+
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+nav > a{
+	display: flex;
+	text-decoration:none;
+	
+}
+
+nav > a >section > p{
+	padding-top: 28%;
+}
+
+#BT1{
+	width: 280px;
+	height: 240px;
+	background: #003E91;
+	font-size: 28px;
+	font-family:helvetica;
+	color:#ffffff;
+	border-radius:17px;
+	margin-top: 10px;
+}
+
+#BT1:hover{
+	box-shadow: 7px 7px 31px 0px black;
+}
+
+#BT2{
+	width: 280px;
+	height: 240px;
+	background: #003E91;
+	font-size: 26px;
+	font-family:helvetica;
+	color:#ffffff;
+	border-radius:17px;
+	margin-top: 10px;
+}
+
+#BT2:hover{
+	box-shadow: 7px 7px 31px 0px black;
+}
+
+#BT3{
+	width: 280px;
+	height: 240px;
+	background: #003E91;
+	font-size: 28px;
+	font-family:helvetica;
+	color:#ffffff;
+	border-radius:17px;
+	margin-top: 10px;
+}
+
+#BT3:hover{
+	box-shadow: 7px 7px 31px 0px black;
+}
+
+footer{
+	width:100%;
+	position: absolute;
+	bottom:;
+}
+
+#Banner3{
+	height: 50px;
+	background: #003E91;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#inscrip{
+	font-size:18px;
+	font-family:helvetica;
+	color:#ffffff;
+}
+
+@media (max-width: 147px) {
+
+		#Banner2{
+			width: 100%;
+		}
+
+}
